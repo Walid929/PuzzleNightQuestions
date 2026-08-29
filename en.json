@@ -109,7 +109,7 @@
   "bonus_won_subtitle": "{team} wins the prize in the envelope:",
   "bonus_lost_title": "Time's up!",
   "bonus_lost_subtitle": "Here's what was in the envelope:",
-  "bonus_round_timer": "Bonus round timer",
+  "bonus_round_timer": "Bonus Round Timer",
   "round_complete": "Round {round} complete",
   "solved_by": "{team} solved the puzzle!",
   "new_phrase_loaded": "A new phrase has been loaded.",
