@@ -70,6 +70,7 @@
   "team_name": "اسم اللاعب",
   "add_team": "إضافة لاعب",
   "category": "الفئة",
+  "random_category": "عشوائي",
   "start_game": "بدء اللعبة",
   "error_empty_team_name": "يجب إدخال اسم لكل لاعب.",
   "error_duplicate_team_name": "يجب أن تكون أسماء اللاعبين فريدة.",
@@ -122,6 +123,9 @@
   "settings": "الإعدادات",
   "language": "اللغة",
   "gameplay": "أسلوب اللعب",
+  "sound": "الصوت",
+  "sound_on": "الصوت مفعّل",
+  "sound_off": "الصوت متوقف",
   "seconds": "ثانية",
   "vowel_cost_note": "يكلف كل حرف متحرك {cost}$، تُخصم من إجمالي أرباح اللاعب.",
   "how_to_play": "كيفية اللعب",
@@ -165,5 +169,6 @@
   "enter_password": "أدخل كلمة المرور",
   "enter_confirm_password": "أعد إدخال كلمة المرور",
   "have_account": "لديك حساب بالفعل؟",
-  "register_subtitle": "أنشئ حسابًا لاستضافة الألعاب"
+  "register_subtitle": "أنشئ حسابًا لاستضافة الألعاب",
+  "auth_error_not_configured": "تسجيل الدخول غير متاح في هذا الإصدار. لم يتم إعداد Firebase لهذا التطبيق."
 }

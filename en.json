@@ -70,6 +70,7 @@
   "team_name": "Player Name",
   "add_team": "Add Player",
   "category": "Category",
+  "random_category": "Random",
   "start_game": "Start Game",
   "error_empty_team_name": "Every player needs a name.",
   "error_duplicate_team_name": "Player names must be unique.",
@@ -122,6 +123,9 @@
   "settings": "Settings",
   "language": "Language",
   "gameplay": "Gameplay",
+  "sound": "Sound",
+  "sound_on": "Sound On",
+  "sound_off": "Sound Off",
   "seconds": "seconds",
   "vowel_cost_note": "Each vowel costs ${cost}, paid from the player's total earnings.",
   "how_to_play": "How to Play",
@@ -165,5 +169,6 @@
   "enter_password": "Enter your password",
   "enter_confirm_password": "Re-enter your password",
   "have_account": "Already have an account?",
-  "register_subtitle": "Create an account to host games"
+  "register_subtitle": "Create an account to host games",
+  "auth_error_not_configured": "Sign-in isn't available in this build. Firebase is not configured for this app."
 }
