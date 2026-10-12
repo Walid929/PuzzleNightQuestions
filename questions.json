@@ -1,45 +1,1640 @@
 {
   "questions": [
-    { "id": "en1", "phrase": "A STITCH IN TIME SAVES NINE", "category": "Proverbs", "language": "en" },
-    { "id": "en2", "phrase": "BETTER LATE THAN NEVER", "category": "Proverbs", "language": "en" },
-    { "id": "en3", "phrase": "PRACTICE MAKES PERFECT", "category": "Proverbs", "language": "en" },
-    { "id": "en4", "phrase": "ACTIONS SPEAK LOUDER THAN WORDS", "category": "Proverbs", "language": "en" },
-    { "id": "en5", "phrase": "GOLDEN GATE BRIDGE", "category": "Places", "language": "en" },
-    { "id": "en6", "phrase": "GRAND CANYON NATIONAL PARK", "category": "Places", "language": "en" },
-    { "id": "en7", "phrase": "EIFFEL TOWER IN PARIS", "category": "Places", "language": "en" },
-    { "id": "en8", "phrase": "GREAT WALL OF CHINA", "category": "Places", "language": "en" },
-    { "id": "en9", "phrase": "SCRAMBLED EGGS AND BACON", "category": "Food", "language": "en" },
-    { "id": "en10", "phrase": "CHOCOLATE CHIP COOKIES", "category": "Food", "language": "en" },
-    { "id": "en11", "phrase": "SPAGHETTI AND MEATBALLS", "category": "Food", "language": "en" },
-    { "id": "en12", "phrase": "PEANUT BUTTER AND JELLY", "category": "Food", "language": "en" },
-    { "id": "en13", "phrase": "JURASSIC PARK", "category": "Movies", "language": "en" },
-    { "id": "en14", "phrase": "THE LION KING", "category": "Movies", "language": "en" },
-    { "id": "en15", "phrase": "FORREST GUMP", "category": "Movies", "language": "en" },
-    { "id": "en16", "phrase": "TITANIC", "category": "Movies", "language": "en" },
-    { "id": "en17", "phrase": "KITCHEN TABLE", "category": "Things", "language": "en" },
-    { "id": "en18", "phrase": "COFFEE MUG", "category": "Things", "language": "en" },
-    { "id": "en19", "phrase": "ALARM CLOCK", "category": "Things", "language": "en" },
-    { "id": "en20", "phrase": "WOODEN CHAIR", "category": "Things", "language": "en" },
-
-    { "id": "ar1", "phrase": "الصبر مفتاح الفرج", "category": "أمثال", "language": "ar" },
-    { "id": "ar2", "phrase": "العلم نور والجهل ظلام", "category": "أمثال", "language": "ar" },
-    { "id": "ar3", "phrase": "درهم وقاية خير من قنطار علاج", "category": "أمثال", "language": "ar" },
-    { "id": "ar4", "phrase": "من جد وجد ومن زرع حصد", "category": "أمثال", "language": "ar" },
-    { "id": "ar5", "phrase": "برج خليفة في دبي", "category": "أماكن", "language": "ar" },
-    { "id": "ar6", "phrase": "المسجد الحرام في مكة المكرمة", "category": "أماكن", "language": "ar" },
-    { "id": "ar7", "phrase": "سوق الحميدية في دمشق", "category": "أماكن", "language": "ar" },
-    { "id": "ar8", "phrase": "أهرامات الجيزة", "category": "أماكن", "language": "ar" },
-    { "id": "ar9", "phrase": "كبسة باللحم والأرز", "category": "طعام", "language": "ar" },
-    { "id": "ar10", "phrase": "كنافة بالجبن", "category": "طعام", "language": "ar" },
-    { "id": "ar11", "phrase": "شاي بالنعناع", "category": "طعام", "language": "ar" },
-    { "id": "ar12", "phrase": "حمص بالطحينة", "category": "طعام", "language": "ar" },
-    { "id": "ar13", "phrase": "الحديقة الجوراسية", "category": "أفلام", "language": "ar" },
-    { "id": "ar14", "phrase": "الملك الأسد", "category": "أفلام", "language": "ar" },
-    { "id": "ar15", "phrase": "تايتانيك", "category": "أفلام", "language": "ar" },
-    { "id": "ar16", "phrase": "فورست جامب", "category": "أفلام", "language": "ar" },
-    { "id": "ar17", "phrase": "طاولة المطبخ", "category": "أشياء", "language": "ar" },
-    { "id": "ar18", "phrase": "كوب القهوة", "category": "أشياء", "language": "ar" },
-    { "id": "ar19", "phrase": "ساعة المنبه", "category": "أشياء", "language": "ar" },
-    { "id": "ar20", "phrase": "كرسي خشبي", "category": "أشياء", "language": "ar" }
+    {
+      "id": "ar1",
+      "phrase": "تايتانيك",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar2",
+      "phrase": "برشامة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar3",
+      "phrase": "اللي بالي بالك",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar4",
+      "phrase": "السفارة في العمارة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar5",
+      "phrase": "الفيل الازرق",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar6",
+      "phrase": "رب اخ لك لم تلده امك",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar7",
+      "phrase": "تجري الرياح بما لا تشتهي السفن",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar8",
+      "phrase": "راس الحكمة مخافة الله",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar9",
+      "phrase": "الصمت اسلم من الكلام",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar10",
+      "phrase": "لكل مقام مقال",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar11",
+      "phrase": "خير الكلام ما قل ودل",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar12",
+      "phrase": "من اعانك على الشر ظلمك",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar13",
+      "phrase": "كل زائد ناقص",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar14",
+      "phrase": "العتاب قبل العقاب",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar15",
+      "phrase": "رب رمية من غير رام",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar16",
+      "phrase": "بلاء الإنسان من اللسان",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar17",
+      "phrase": "التكرار أبو المهارات",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar18",
+      "phrase": "كلام الليل يمحوه النهار",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar19",
+      "phrase": "الصبر مفتاح الفرج",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar20",
+      "phrase": "دوام الحال من المحال",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar21",
+      "phrase": "نوم الظالم عبادة",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar22",
+      "phrase": "فرخ البط عوام",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar23",
+      "phrase": "اختلط الحابل بالنابل",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar24",
+      "phrase": "الي اختشو ماتوا",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar25",
+      "phrase": "حبل الكذب قصير",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar26",
+      "phrase": "إصبر تنل",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar27",
+      "phrase": "لكل داء دواء",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar28",
+      "phrase": "رجعَتْ حليمةُ لعادتِها القديمةِ",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar29",
+      "phrase": "كأنك يا أبو زيد ما غزيت",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar30",
+      "phrase": "ذل من لا سيف له",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar31",
+      "phrase": "إن غداً لناظره قريب",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar32",
+      "phrase": "يد واحدة لا تصفق وحدها",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar33",
+      "phrase": "خذوا الحكمة من أفواه المجانين",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar34",
+      "phrase": "السكوت علامة الرضا",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar35",
+      "phrase": "إذا كنت ذا رأي فكن ذا عزيمة",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar36",
+      "phrase": "اشتدي يا أزمة تنفرجي",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar37",
+      "phrase": "الصديق وقت الضيق",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar38",
+      "phrase": "الكتاب مبين من عنوانه",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar39",
+      "phrase": "أضرب الحديد و هو حامي",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar40",
+      "phrase": "خير الكلام ما قل ودل",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar41",
+      "phrase": "صدرك أوسع لسرك",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar42",
+      "phrase": "إن لم تستح فافعل ما تشاء",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar43",
+      "phrase": "الدال على الخير كفاعله",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar44",
+      "phrase": "الحق دولة والباطل جولة",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar45",
+      "phrase": "كما تدين تدان",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar46",
+      "phrase": "البعيد عن العين بعيد عن القلب",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar47",
+      "phrase": "من شابه أباه فما ظلم",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar48",
+      "phrase": "هذا الشبل من ذاك الأسد",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar49",
+      "phrase": "إن الله يمهل ولا يهمل",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar50",
+      "phrase": "لكل داء دواء",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar51",
+      "phrase": "الجار قبل الدار",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar52",
+      "phrase": "الغائب عذره معه",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar53",
+      "phrase": "الناس لبعضها",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar54",
+      "phrase": "القرد بعين أمه غزال",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar55",
+      "phrase": "أعز من الولد ولد الولد",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar56",
+      "phrase": "أعمل منيح وارميه بالبحر",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar57",
+      "phrase": "الصباح رباح",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar58",
+      "phrase": "إذا حضر الماء بطل التيمم",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar59",
+      "phrase": "معادن الناس تكشفها المواقف",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar60",
+      "phrase": "رجعَتْ حليمةُ لعادتِها القديمةِ",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar61",
+      "phrase": "الجزار",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar62",
+      "phrase": "البارون",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar63",
+      "phrase": "اكس لارج",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar64",
+      "phrase": "احلام عمرنا",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar65",
+      "phrase": "أبو شنب",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar66",
+      "phrase": "أم البنات",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar67",
+      "phrase": "الواد وأبوه",
+      "category": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "id": "ar68",
+      "phrase": "النصابية",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar69",
+      "phrase": "اللمبي",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar70",
+      "phrase": "السجل الأسود",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar71",
+      "phrase": "توم وجيمي",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar72",
+      "phrase": "بوحة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar73",
+      "phrase": "بابا في ورطة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar74",
+      "phrase": "حبة كراميل",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar75",
+      "phrase": "حب مشروع",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar76",
+      "phrase": "حارس الزعيم",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar77",
+      "phrase": "حارة الصين",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar78",
+      "phrase": "جواز إجباري",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar79",
+      "phrase": "تيمور وشفيقة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar80",
+      "phrase": "عائلة مشاغبة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar81",
+      "phrase": "ضحك في الزنزانة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar82",
+      "phrase": "صنع في مصر",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar83",
+      "phrase": "زهايمر",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar84",
+      "phrase": "خطة بديلة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar85",
+      "phrase": "حماتي بتحبني",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar86",
+      "phrase": "رحلة اللجوء",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar87",
+      "phrase": "عيد الفطر",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar88",
+      "phrase": "عوكل",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar89",
+      "phrase": "عصابة نص كم",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar90",
+      "phrase": "عسل اسود",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar91",
+      "phrase": "عالماشي",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar92",
+      "phrase": "محامي الغلابة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar93",
+      "phrase": "لعنة الحرام",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar94",
+      "phrase": "لصوص أغبياء",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar95",
+      "phrase": "كذبة كبيرة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar96",
+      "phrase": "كابتين هيما",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar97",
+      "phrase": "همام في امستردام",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar98",
+      "phrase": "نور عيني",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar99",
+      "phrase": "مشروع الكتاكيت",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar100",
+      "phrase": "مرجان احمد مرجان",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar101",
+      "phrase": "بابلو",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar102",
+      "phrase": "اهواك",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar103",
+      "phrase": "سفاح التجمع",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar104",
+      "phrase": "الجواهرجي",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar105",
+      "phrase": "جوازة ولا جنازة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar106",
+      "phrase": "شمشون ودليلة",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar107",
+      "phrase": "الهوى سلطان",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar108",
+      "phrase": "صاحب المقام",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar109",
+      "phrase": "توأم روحي",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar110",
+      "phrase": "الصندوق الأسود",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar111",
+      "phrase": "صابر وراضي",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "ar112",
+      "phrase": "تصبح على خير",
+      "category": "أفلام",
+      "language": "ar"
+    },
+    {
+      "id": "en1",
+      "phrase": "SPIDERMAN",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en2",
+      "phrase": "HARRY POTTER",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en3",
+      "phrase": "TITANIC",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en4",
+      "phrase": "INCEPTION",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en5",
+      "phrase": "THE WITCHER",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en6",
+      "phrase": "THE LORD OF THE RINGS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en7",
+      "phrase": "THE HOBBIT",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en8",
+      "phrase": "A BOWL OF FRESH BERRIES",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en9",
+      "phrase": "A CUP OF HOT CHOCOLATE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en10",
+      "phrase": "AGING WINE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en11",
+      "phrase": "ALMOND OAT BARS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en12",
+      "phrase": "ANCHOVIES ON PIZZA",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en13",
+      "phrase": "APPLES AND ORANGES",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en14",
+      "phrase": "AVOCADO SALAD",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en15",
+      "phrase": "BACON AND EGGS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en16",
+      "phrase": "BAKED CHOCOLATE CROISSANT",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en17",
+      "phrase": "BANANA SPLIT CAKE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en18",
+      "phrase": "BARBECUED CHICKEN SALAD",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en19",
+      "phrase": "BEEF ENCHILADA",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en20",
+      "phrase": "BEEF STROGANOFF",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en21",
+      "phrase": "BELGIAN WAFFLES",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en22",
+      "phrase": "BIG MACS AND WHOPPERS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en23",
+      "phrase": "BONELESS RIBS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en24",
+      "phrase": "BOTTLE OF WINE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en25",
+      "phrase": "BREAD AND BUTTER",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en26",
+      "phrase": "BUFFALO CHICKEN SANDWICH",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en27",
+      "phrase": "CAJUN CHICKEN",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en28",
+      "phrase": "CALIFORNIA ROLL",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en29",
+      "phrase": "CARAMEL COOKIES",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en30",
+      "phrase": "CASHEW MILK",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en31",
+      "phrase": "CHAMPAGNE AND CAVIAR",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en32",
+      "phrase": "CHICKEN CAESAR SALAD",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en33",
+      "phrase": "CHOCOLATE MACAROONS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en34",
+      "phrase": "CINNAMON ROLLS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en35",
+      "phrase": "DOUBLE CHEESEBURGER",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en36",
+      "phrase": "ENGLISH MUFFIN",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en37",
+      "phrase": "FALAFEL SANDWICH",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en38",
+      "phrase": "FISH AND CHIPS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en39",
+      "phrase": "FRENCH FRIES WITH KETCHUP",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en40",
+      "phrase": "FRESH ORANGE JUICE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en41",
+      "phrase": "FRIED ONION RINGS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en42",
+      "phrase": "GLASS OF WATER",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en43",
+      "phrase": "GRILLED CHICKEN BREAST",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en44",
+      "phrase": "HONEY MUSTARD DRESSING",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en45",
+      "phrase": "HOT FUDGE SUNDAE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en46",
+      "phrase": "ICE CREAM BAR",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en47",
+      "phrase": "JAR OF PICKLES",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en48",
+      "phrase": "KUNG PAO SHRIMP",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en49",
+      "phrase": "LASAGNA BOLOGNESE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en50",
+      "phrase": "LOW FAT YOGURT",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en51",
+      "phrase": "MACARONI AND CHEESE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en52",
+      "phrase": "MARSHMALLOW POPS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en53",
+      "phrase": "MASHED SWEET POTATOES",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en54",
+      "phrase": "VANILLA MILKSHAKE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en55",
+      "phrase": "NUTS AND CASHEWS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en56",
+      "phrase": "OREO CHEESECAKE",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en57",
+      "phrase": "PANCAKES AND SYRUPS",
+      "category": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "id": "en58",
+      "phrase": "A NIGHTMARE ON ELM STREET",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en59",
+      "phrase": "ACE VENTURA PET DETECTIVE",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en60",
+      "phrase": "AVENGERS AGE OF ULTRON",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en61",
+      "phrase": "BLACK HAWK DOWN",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en62",
+      "phrase": "CLASH OF THE TITANS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en63",
+      "phrase": "CROCODILE DUNDEE",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en64",
+      "phrase": "DESPICABLE ME",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en65",
+      "phrase": "ESCAPE FROM ALCATRAZ",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en66",
+      "phrase": "EYES WIDE SHUT",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en67",
+      "phrase": "FIVE SUMMER STORIES",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en68",
+      "phrase": "FUN WITH DICK AND JANE",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en69",
+      "phrase": "FRACTURE",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en70",
+      "phrase": "GHOSTBUSTERS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en71",
+      "phrase": "GONE WITH THE WIND",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en72",
+      "phrase": "GOOD WILL HUNTING",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en73",
+      "phrase": "GUARDIANS OF THE GALAXY",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en74",
+      "phrase": "GUYS AND DOLLS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en75",
+      "phrase": "HOUSE ON HAUNTED HILL",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en76",
+      "phrase": "HOW THE GRINCH STOLE CHRISTMAS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en77",
+      "phrase": "I AM LEGEND",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en78",
+      "phrase": "INVASION OF THE BODY SNATCHERS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en79",
+      "phrase": "INTERNAL AFFAIRS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en80",
+      "phrase": "JURASSIC WORLD FALLEN KINGDOM",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en81",
+      "phrase": "KINGDOM OF HEAVEN",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en82",
+      "phrase": "KUNG FU PANDA",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en83",
+      "phrase": "LAST TANGO IN PARIS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en84",
+      "phrase": "LAW ABIDING CITIZEN",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en85",
+      "phrase": "LITTLE MISS SUNSHINE",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en86",
+      "phrase": "LITTLE SHOP OF HORRORS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en87",
+      "phrase": "MALTESE FALCON",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en88",
+      "phrase": "MILLION DOLLAR BABY",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en89",
+      "phrase": "MISSION IMPOSSIBLE",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en90",
+      "phrase": "MY BIG FAT GREEK WEDDING",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en91",
+      "phrase": "NAPOLEON DYNAMITE",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en92",
+      "phrase": "NO COUNTRY FOR OLD MEN",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en93",
+      "phrase": "OCEANS THIRTEEN",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en94",
+      "phrase": "PITCH PERFECT",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en95",
+      "phrase": "PUMPKINHEAD",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en96",
+      "phrase": "QUANTUM OF SOLACE",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en97",
+      "phrase": "RAIDERS OF THE LOST ARK",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en98",
+      "phrase": "REMEMBER THE TITANS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en99",
+      "phrase": "RUNAWAY BRIDE",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en100",
+      "phrase": "SATURDAY NIGHT FEVER",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en101",
+      "phrase": "SAVING PRIVATE RYAN",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en102",
+      "phrase": "SHANGHAI EXPRESS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en103",
+      "phrase": "SILVER LININGS PLAYBOOK",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en104",
+      "phrase": "SMOKEY AND THE BANDIT",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en105",
+      "phrase": "SPARTACUS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en106",
+      "phrase": "SUNSET BOULEVARD",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en107",
+      "phrase": "SWEET SMELL OF SUCCESS",
+      "category": "Movie",
+      "language": "en"
+    },
+    {
+      "id": "en108",
+      "phrase": "A BITTER PILL TO SWALLOW",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en109",
+      "phrase": "A BLESSING IN DISGUISE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en110",
+      "phrase": "A PICTURES WORTH A THOUSAND WORDS",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en111",
+      "phrase": "A STEP IN THE RIGHT DIRECTION",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en112",
+      "phrase": "A STROKE OF GENIUS",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en113",
+      "phrase": "ADDING FUEL TO THE FIRE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en114",
+      "phrase": "AGED TO PERFECTION",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en115",
+      "phrase": "AN ACCIDENT WAITING TO HAPPEN",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en116",
+      "phrase": "ASHES TO ASHES DUST TO DUST",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en117",
+      "phrase": "AT THE STROKE OF MIDNIGHT",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en118",
+      "phrase": "BACK BY POPULAR DEMAND",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en119",
+      "phrase": "BACK TO THE DRAWING BOARD",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en120",
+      "phrase": "BASED ON ACTUAL EVENTS",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en121",
+      "phrase": "BE MY KNIGHT IN SHINING ARMOR",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en122",
+      "phrase": "BEYOND A REASONABLE DOUBT",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en123",
+      "phrase": "BITING OFF MORE THAN YOU CAN CHEW",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en124",
+      "phrase": "BUSINESS OR PLEASURE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en125",
+      "phrase": "CAUGHT BETWEEN A ROCK AND A HARD PLACE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en126",
+      "phrase": "CLIMBING THE CORPORATE LADDER",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en127",
+      "phrase": "COOL AS A CUCUMBER",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en128",
+      "phrase": "COUNT YOUR BLESSINGS",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en129",
+      "phrase": "DONT SELL YOURSELF SHORT",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en130",
+      "phrase": "EVERY DOG HAS HIS DAY",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en131",
+      "phrase": "EXPECT THE UNEXPECTED",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en132",
+      "phrase": "FAMILIARITY BREEDS CONTEMPT",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en133",
+      "phrase": "FIFTEEN MINUTES OF FAME",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en134",
+      "phrase": "GENTLEMEN START YOUR ENGINES",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en135",
+      "phrase": "GOING THE EXTRA MILE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en136",
+      "phrase": "GREAT MINDS THINK ALIKE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en137",
+      "phrase": "HEARD THROUGH THE GRAPEVINE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en138",
+      "phrase": "IF YOU PLAY YOUR CARDS RIGHT",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en139",
+      "phrase": "IGNORANCE IS BLISS",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en140",
+      "phrase": "KEEP MY FINGER ON THE PULSE OF THE ACTION",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en141",
+      "phrase": "LAST MINUTE REPLACEMENT",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en142",
+      "phrase": "LEAVE NO STONE UNTURNED",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en143",
+      "phrase": "LICENSE AND REGISTRATION PLEASE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en144",
+      "phrase": "LOOKS LIKE A MILLION BUCKS",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en145",
+      "phrase": "MY KNIGHT IN SHINING ARMOR",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en146",
+      "phrase": "NO SNACKING BETWEEN MEALS",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en147",
+      "phrase": "ON THE EDGE OF MY SEAT",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en148",
+      "phrase": "ONE GOOD TURN DESERVES ANOTHER",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en149",
+      "phrase": "ONE PICTURE IS WORTH A THOUSAND WORDS",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en150",
+      "phrase": "PACK YOUR WALKING SHOES",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en151",
+      "phrase": "PASSWORDS ARE CASE SENSITIVE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en152",
+      "phrase": "PLAYING IN THEATERS EVERYWHERE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en153",
+      "phrase": "PLEASE TURN OFF YOUR CELL PHONE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en154",
+      "phrase": "POSTPONED UNTIL FURTHER NOTICE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en155",
+      "phrase": "PRICES SUBJECT TO CHANGE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en156",
+      "phrase": "PUBLIC ENEMY NUMBER ONE",
+      "category": "Popular phrases",
+      "language": "en"
+    },
+    {
+      "id": "en157",
+      "phrase": "QUIET ON THE SET",
+      "category": "Popular phrases",
+      "language": "en"
+    }
+  ],
+  "categories": [
+    {
+      "name": "أفلام",
+      "language": "ar"
+    },
+    {
+      "name": "حكم واقوال",
+      "language": "ar"
+    },
+    {
+      "name": "Movie",
+      "language": "en"
+    },
+    {
+      "name": "Food & Drinks",
+      "language": "en"
+    },
+    {
+      "name": "Popular phrases",
+      "language": "en"
+    }
   ]
 }
